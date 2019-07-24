@@ -1,7 +1,8 @@
 import React from 'react';
+import tykeImage from '../src/assests/tykeImage.jpg'
 export const Home=()=> {
    return(
-       <div>
+       <div style={{ backgroundImage: `url(${tykeImage})`}}>
         <h2> Welcome</h2>
         <p>
         Donec adipiscing tristique risus nec feugiat in fermentum posuere urna.
