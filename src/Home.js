@@ -1,5 +1,5 @@
 import React from 'react';
-import tykeImage from '../src/assests/tykeImage.jpg'
+import tykeImage from '../src/assets/tykeImage.jpg'
 export const Home=()=> {
    return(
        <div style={{ backgroundImage: `url(${tykeImage})`}}>
